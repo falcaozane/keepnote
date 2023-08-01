@@ -19,7 +19,7 @@ const DisplayNote = (props) => {
 
   return (
     <div className="note" key={props.id}>
-        <p style={{"marginLeft":"50px"}}>{showDate} {showTime}</p>
+        {/*<p style={{"marginLeft":"50px"}}>{showDate} {showTime}</p>*/}
         <p className="title">{props.title}</p>
         <p className="content">{props.content}</p>
         <button onClick={()=>handleClick(props.id)}><DeleteIcon /></button>

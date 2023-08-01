@@ -21,11 +21,13 @@ const Header = () => {
         <h3>
         <DescriptionIcon />Note-It
         </h3>
+        {/*
         {user?.displayName ? (
           <button onClick={handleSignOut}>Logout</button>
           ) : (
           <Link to='/signin' style={{'textDecoration':'none'}}>Sign-in</Link>
-        )}
+        )} 
+          */}
       </header>
     </div>
   )
